@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "src\Records\Records.csproj", "{47DF1597-C804-4A28-ACE2-C53135DFF2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpressions", "src\SwitchExpressions\SwitchExpressions.csproj", "{4457DB01-2A06-4790-87EC-47EB1605DDA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DF1597-C804-4A28-ACE2-C53135DFF2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DF1597-C804-4A28-ACE2-C53135DFF2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DF1597-C804-4A28-ACE2-C53135DFF2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DF1597-C804-4A28-ACE2-C53135DFF2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4457DB01-2A06-4790-87EC-47EB1605DDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4457DB01-2A06-4790-87EC-47EB1605DDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4457DB01-2A06-4790-87EC-47EB1605DDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4457DB01-2A06-4790-87EC-47EB1605DDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

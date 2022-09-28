@@ -1,0 +1,5 @@
+enum FonteDados
+{
+	DB,
+	API
+};
