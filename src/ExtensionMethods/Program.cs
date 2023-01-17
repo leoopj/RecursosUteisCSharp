@@ -1,12 +1,15 @@
-﻿namespace ExtensionMethods;
-public class Program
+﻿namespace ExtensionMethods
 {
-    static void Main(string[] args)
+    public class Program
     {
-        var mensagem = "Hello Word!"; 
-        var mensagemInvertida = mensagem.Revert();
+        static void Main(string[] args)
+        {
+            var mensagem = "Hello Word!";
+            var mensagemInvertida = mensagem.Revert();
 
-        Console.WriteLine($"Mensagem Original: {mensagem}");
-        Console.WriteLine($"Mensagem Invertida: {mensagemInvertida}");
+            Console.WriteLine($"Mensagem Original: {mensagem}");
+            Console.WriteLine($"Mensagem Invertida: {mensagemInvertida}");
+        }
     }
 }
+

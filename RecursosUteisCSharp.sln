@@ -1,31 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "src\Records\Records.csproj", "{47DF1597-C804-4A28-ACE2-C53135DFF2E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Records", "src\Records\Records.csproj", "{47DF1597-C804-4A28-ACE2-C53135DFF2E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchExpressions", "src\SwitchExpressions\SwitchExpressions.csproj", "{4457DB01-2A06-4790-87EC-47EB1605DDA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpressions", "src\SwitchExpressions\SwitchExpressions.csproj", "{4457DB01-2A06-4790-87EC-47EB1605DDA6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB0BE85A-6DD5-489A-8678-C7501A6961E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitSeparators", "src\DigitSeparators\DigitSeparators.csproj", "{90C13663-CDB1-4F5F-AE85-F7B4AE8F0E5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitSeparators", "src\DigitSeparators\DigitSeparators.csproj", "{90C13663-CDB1-4F5F-AE85-F7B4AE8F0E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionBodiedMembers", "src\ExpressionBodiedMembers\ExpressionBodiedMembers.csproj", "{D16D0CDE-6261-48E9-BC79-C37C2FE70CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodiedMembers", "src\ExpressionBodiedMembers\ExpressionBodiedMembers.csproj", "{D16D0CDE-6261-48E9-BC79-C37C2FE70CE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalFunctions", "src\LocalFunctions\LocalFunctions.csproj", "{5B6F0FA0-0896-4CCE-8182-08E8A942E753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFunctions", "src\LocalFunctions\LocalFunctions.csproj", "{5B6F0FA0-0896-4CCE-8182-08E8A942E753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuples", "src\Tuples\Tuples.csproj", "{2F2FC240-444B-4B10-9F92-92E5A6B3B8EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "src\Tuples\Tuples.csproj", "{2F2FC240-444B-4B10-9F92-92E5A6B3B8EA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtesionMethods", "src\ExtensionMethods\ExtesionMethods.csproj", "{67FBF41A-5563-4789-89EA-0DB08108FE71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtesionMethods", "src\ExtensionMethods\ExtesionMethods.csproj", "{67FBF41A-5563-4789-89EA-0DB08108FE71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{47DF1597-C804-4A28-ACE2-C53135DFF2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -57,11 +52,10 @@ Global
 		{67FBF41A-5563-4789-89EA-0DB08108FE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67FBF41A-5563-4789-89EA-0DB08108FE71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{90C13663-CDB1-4F5F-AE85-F7B4AE8F0E5B} = {AB0BE85A-6DD5-489A-8678-C7501A6961E6}
-		{D16D0CDE-6261-48E9-BC79-C37C2FE70CE9} = {AB0BE85A-6DD5-489A-8678-C7501A6961E6}
-		{5B6F0FA0-0896-4CCE-8182-08E8A942E753} = {AB0BE85A-6DD5-489A-8678-C7501A6961E6}
-		{2F2FC240-444B-4B10-9F92-92E5A6B3B8EA} = {AB0BE85A-6DD5-489A-8678-C7501A6961E6}
-		{67FBF41A-5563-4789-89EA-0DB08108FE71} = {AB0BE85A-6DD5-489A-8678-C7501A6961E6}
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047C7C29-C512-4F8E-925F-1254EB3773F5}
 	EndGlobalSection
 EndGlobal
